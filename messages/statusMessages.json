@@ -1,0 +1,8 @@
+{
+    "doneSuccessfully" : "Done successfully",
+    "userFieldsRequired" : "deviceToken & fingerPrint & authorization are required fields",
+    "contactFieldsRequired" : "firstName & lastName & email & mobileNumber",
+    "wrongEmailAndPhone" : "Wrong Email or Mobile number",
+    "userExist" : "User is already exist",
+    "notAuthorize" : "not authorize"
+}

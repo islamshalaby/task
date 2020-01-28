@@ -12,15 +12,14 @@ var mongoose = require('mongoose'),
         fingerPrint : {
             type : String,
             require : true
-        }
-    }, {
-        getters: true
-      })
+        },
+        contacts : [
+            {
+                type : mongoose.Schema.Types.ObjectId,
+                ref : 'contacts'
+            }
+        ],
+    })
       
 module.exports = mongoose.model('users', userSchema)
-userSchema.virtual('contacts', {
-    ref: 'contacts', 
-    localField: '_id', 
-    foreignField: 'userId', 
-    justOne: false
-  })
+

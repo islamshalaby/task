@@ -3,6 +3,7 @@
     "userFieldsRequired" : "deviceToken & fingerPrint & authorization are required fields",
     "contactFieldsRequired" : "firstName & lastName & email & mobileNumber",
     "wrongEmailAndPhone" : "Wrong Email or Mobile number",
+    "emailOrMobileNumberExist" : "Email or Mobile number is already exist",
     "userExist" : "User is already exist",
     "notAuthorize" : "not authorize"
 }
